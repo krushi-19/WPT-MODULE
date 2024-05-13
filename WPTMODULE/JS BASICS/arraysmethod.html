@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let num = [10,20,30,40,50];
+        let b = num.toString();
+        console.log(b);
+        let c = num.join("_");
+        console.log(c);
+        let d = num.pop();
+        console.log(d);
+        let e = num.pop();
+        console.log(e);
+        num.sort();
+        console.log(num);
+        num.reverse();
+        console.log(num);
+        num.sort();
+        console.log(num);
+        for(let i =1;i<num.length;i++){
+            console.log(num);
+        }
+
+        num.forEach((element)=>{
+            console.log(element*element);
+        })
+
+        // Array form
+        let name = "Krushi";
+        let arr = Array.from(name);
+        console.log(arr);     
+   
+        // for of
+        for ( let i of num){
+            console.log(i);
+        }
+        
+
+    </script>
+</body>
+</html>
